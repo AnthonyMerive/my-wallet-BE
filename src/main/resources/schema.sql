@@ -6,6 +6,7 @@ CREATE TABLE `reminders` (
   `reminder_id` int(11) NOT NULL,
   `wallet_id` int(11) NOT NULL,
   `date` date NOT NULL,
+  `remind` DATETIME NOT NULL,
   `type` varchar(10) NOT NULL,
   `quantity` double(15,2) NOT NULL,
   `description` varchar(255) NOT NULL
